@@ -13,7 +13,10 @@ function App() {
   return(
     <>
     <Navbar/>
-    {travelCards}
+    <main className="all-cards-container">
+       {travelCards}
+    </main>
+  
     </>
 
   )

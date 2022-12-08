@@ -6,6 +6,7 @@
 }
 
 
+
 nav {
   background-color: #F55A5A;
   min-height: 8vh;
@@ -35,12 +36,46 @@ nav {
 
 /* ============ ******************** CARD SECTION **************========= */
 
+main {
+  margin:40px;
+}
+
+.card {
+  display:flex;
+  margin: 20px 0;
+  
+}
+
+.card-container:nth-child(n+2) {
+  border-top: solid black 2px;
+}
 
 .card-image {
+
   width: 125px;
   height: 168px;
   border-radius: 5px;
   object-fit: cover;
+}
+
+.card-info-container {
+  padding: 20px;
+}
+
+.maps-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.maps-container {
+  display: flex;
+  font-size: 10px;
+}
+
+.description {
+  font-size: 10.24px;
+  font-weight: 400;
+  color: #2B283A
 }
 
 
